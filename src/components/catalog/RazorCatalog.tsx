@@ -7,10 +7,6 @@ import { CatalogHeader } from "@/components/catalog/CatalogHeader";
         <CatalogHeader />
         <div className="flex w-full flex-col gap-8 md:flex-row">
           <FilterPanel />
-          <div
-            aria-hidden="true"
-            className="min-h-[420px] flex-1 rounded-xl border border-dashed border-[#e5e5e5] md:w-[744px]"
-          />
         </div>
       </section>
     );
