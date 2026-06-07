@@ -1,5 +1,6 @@
 import { CatalogHeader } from "@/components/catalog/CatalogHeader";
   import { FilterPanel } from "@/components/catalog/FilterPanel";
+  import { ProductGrid } from "@/components/catalog/ProductGrid";
 
   export function RazorCatalog() {
     return (
@@ -7,6 +8,7 @@ import { CatalogHeader } from "@/components/catalog/CatalogHeader";
         <CatalogHeader />
         <div className="flex w-full flex-col gap-8 md:flex-row">
           <FilterPanel />
+          <ProductGrid />
         </div>
       </section>
     );
