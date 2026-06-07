@@ -28,8 +28,7 @@ import { Check } from "lucide-react";
             <button
               type="button"
               onClick={() => onSelect(razor.id)}
-              className={`flex h-8 items-center gap-1.5 rounded-lg px-3 text-[13px] font-medium leading-5 transition-colors focus-
-              visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1a1a1a] ${
+              className={`flex h-8 items-center gap-1.5 rounded-lg px-3 text-[13px] font-medium leading-5 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1a1a1a] ${
                 selected
                   ? "bg-[#1a1a1a] text-white hover:bg-[#343434]"
                   : "border border-[#e5e5e5] bg-white text-[#1a1a1a] hover:border-[#c8c8c8]"

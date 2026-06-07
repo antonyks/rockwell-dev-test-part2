@@ -24,8 +24,7 @@ import { FilterGroup } from "@/components/catalog/FilterGroup";
             <button
               type="button"
               onClick={clearAllFilters}
-              className="rounded text-[13px] font-medium leading-5 text-[#6b7280] transition-colors hover:text-[#1a1a1a] focus-
-              visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1a1a1a]"
+              className="rounded text-[13px] font-medium leading-5 text-[#6b7280] transition-colors hover:text-[#1a1a1a] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1a1a1a]"
             >
               Clear all
             </button>
@@ -36,8 +35,7 @@ import { FilterGroup } from "@/components/catalog/FilterGroup";
             value={searchQuery}
             onChange={(event) => setSearchQuery(event.target.value)}
             placeholder="Search razors"
-            className="h-[37px] w-full rounded-lg border border-[#e5e5e5] bg-[#f9f9f8] px-3 py-2.5 text-sm leading-5 text-[#1a1a1a]
-            outline-none placeholder:text-[#6b7280] focus:border-[#1a1a1a] focus:ring-2 focus:ring-[#1a1a1a]/10"
+            className="h-[37px] w-full rounded-lg border border-[#e5e5e5] bg-[#f9f9f8] px-3 py-2.5 text-sm leading-5 text-[#1a1a1a] outline-none placeholder:text-[#6b7280] focus:border-[#1a1a1a] focus:ring-2 focus:ring-[#1a1a1a]/10"
           />
 
           <FilterGroup

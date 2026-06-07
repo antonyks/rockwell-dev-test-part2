@@ -44,9 +44,7 @@ import { X } from "lucide-react";
             key={chip.id}
             type="button"
             onClick={chip.onRemove}
-            className="flex items-center gap-1.5 rounded-full bg-[#efefee] px-2.5 py-1.5 text-[13px] font-medium leading-4
-            text-[#1a1a1a] transition-colors hover:bg-[#e4e4e2] focus-visible:outline focus-visible:outline-2 focus-visible:outline-
-            offset-2 focus-visible:outline-[#1a1a1a]"
+            className="flex items-center gap-1.5 rounded-full bg-[#efefee] px-2.5 py-1.5 text-[13px] font-medium leading-4 text-[#1a1a1a] transition-colors hover:bg-[#e4e4e2] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1a1a1a]"
           >
             <span>{chip.label}</span>
             <X className="size-[11px] text-[#6b7280]" />
